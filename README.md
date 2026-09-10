@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![zero dependencies](https://img.shields.io/badge/dependencies-0-success)
 
+<p align="center"><img src="assets/demo.svg" alt="repo-autopilot demo" width="720"></p>
+
 **Put issue & PR triage on autopilot.** A single GitHub Action that
 auto-labels pull requests by changed files and titles, welcomes first-time
 contributors, and sweeps stale threads on a schedule — driven by one small
