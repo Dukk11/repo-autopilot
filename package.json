@@ -1,0 +1,32 @@
+{
+  "name": "repo-autopilot",
+  "version": "1.0.0",
+  "description": "Rule-based issue & PR triage as a GitHub Action — auto-labels by path/title, welcomes first-time contributors, sweeps stale threads. Zero dependencies, JSON config, no marketplace app needed.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "github-action",
+    "automation",
+    "triage",
+    "issues",
+    "pull-request",
+    "labels",
+    "stale",
+    "zero-dependency"
+  ],
+  "author": "Duk · dukdev.com",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dukk11/repo-autopilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dukk11/repo-autopilot/issues"
+  },
+  "homepage": "https://github.com/Dukk11/repo-autopilot#readme"
+}

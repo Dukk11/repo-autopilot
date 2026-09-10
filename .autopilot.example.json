@@ -1,0 +1,22 @@
+{
+  "labelByPath": [
+    { "glob": "src/**", "label": "backend" },
+    { "glob": "web/**", "label": "frontend" },
+    { "glob": "**/*.test.*", "label": "tests" },
+    { "glob": "**/*.md", "label": "docs" },
+    { "glob": ".github/**", "label": "ci" }
+  ],
+  "labelByTitle": [
+    { "pattern": "^\\[bug\\]", "flags": "i", "label": "bug" },
+    { "pattern": "feature request|enhancement", "flags": "i", "label": "enhancement" }
+  ],
+  "welcome": {
+    "comment": "Thanks for your first contribution! 🎉 A maintainer will review this shortly."
+  },
+  "stale": {
+    "days": 30,
+    "label": "stale",
+    "closeAfterDays": 45,
+    "comment": "This thread has been quiet for 30 days. It will be closed in 15 more days of silence — comment to keep it alive."
+  }
+}

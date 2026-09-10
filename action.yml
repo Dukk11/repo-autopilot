@@ -1,0 +1,21 @@
+name: 'repo-autopilot'
+description: 'Rule-based issue & PR triage — auto-labels by path/title, welcomes first-timers, sweeps stale threads. Zero dependencies.'
+author: 'Duk · dukdev.com'
+
+inputs:
+  github-token:
+    description: 'Token for API calls'
+    required: false
+    default: ${{ github.token }}
+  issue-number:
+    description: 'For issue events, pass ${{ github.event.issue.number }}'
+    required: false
+    default: ''
+
+runs:
+  using: 'node20'
+  main: 'src/main.js'
+
+branding:
+  icon: 'cpu'
+  color: 'purple'
